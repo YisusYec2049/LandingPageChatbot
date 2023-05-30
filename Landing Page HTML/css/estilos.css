@@ -13,7 +13,7 @@ body{
 }
 
 .hero{
-    background-image: linear-gradient(120deg, rgba(241, 147, 251, 0.699) 0%, rgba(85, 27, 35, 0.692) 100%), url("../img/header.jpg");
+    background-image: linear-gradient(120deg, rgba(221, 16, 61, 0.699) 0%, rgba(85, 27, 35, 0.692) 100%), url("../img/header.jpg");
     width: 100%;
     height: 650px;
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@ body{
     display: inline-block;
     text-decoration: none;
     padding: 12px 15px;
-    background: #a18cd1;
+    background: #ff3232;
     border-radius: 8px;
     color: #fff;
 }
@@ -100,6 +100,8 @@ body{
 
 .website .contenedor-textos-main{
     width: 40%;
+    justify-content: center;
+    text-align: center;
 }
 
 .parrafo{
@@ -110,10 +112,11 @@ body{
 .cta{
     display: inline-block;
     text-decoration: none;
-    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    background-image: linear-gradient(45deg, #f11820 0%, #ce3f18 99%, #b33411 100%);
     padding: 12px 15px;
     border-radius: 8px;
     color: #fff;
+   justify-content: center;
 }
 
 /* Info */
@@ -121,6 +124,11 @@ body{
 .info{
     background: #f5576c;
     color: #fff;
+}
+
+.img-principal {
+    width: 180px;
+    height: 200px;
 }
 
 
@@ -150,7 +158,7 @@ body{
 
 .card i{
     margin: 30px 0 20px 0;
-    color: #cc9199;
+    color: #f83953;
     font-size: 50px;
 }
 
@@ -205,7 +213,7 @@ body{
 /* footer */
 
 footer{
-    background: #f5576c;
+    background: #ec2f48;
     color: #fff;
 }
 
@@ -252,6 +260,10 @@ input[type="submit"]:hover{
     color: tomato;
     background: #fff;
 }
+.container_saludar {
+    width: 100px;
+    height: 100px;
+}   
 
 @media screen and (max-width:800px){
     .textos-hero h1{
