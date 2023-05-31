@@ -95,7 +95,7 @@ body{
 }
 
 .website img{
-    width: 48%;
+    width: 25%;
 }
 
 .website .contenedor-textos-main{
@@ -127,8 +127,11 @@ body{
 }
 
 .img-principal {
-    width: 180px;
+    width: 240px;
     height: 200px;
+}
+.container_img {
+    width: 200px;
 }
 
 
@@ -183,7 +186,7 @@ body{
 }
 
 .galeria-cont>img{
-    width: 30%;
+    width: 20%;
     object-fit: cover;
     margin-bottom: 20px;
     display: block;
@@ -202,7 +205,7 @@ body{
 }
 
 .last-section img{
-    width: 48%;
+    width: 35%;
 }
 
 .last-section .contenedor-textos-main{
@@ -237,18 +240,6 @@ footer{
     font-family: 'raleway', 'sans-serif';
 }
 
-input[type="text"], 
-input[type="email"]{
-    display: inline-block;
-    width: 49%;
-    margin-bottom: 30px;
-}
-
-.form textarea{
-    width: 100%;
-    margin-bottom: 15px;
-}
-
 input[type="submit"]{
     width: 120px;
     text-align: center;
@@ -264,6 +255,10 @@ input[type="submit"]:hover{
     width: 100px;
     height: 100px;
 }   
+.container_copyright {
+    display: grid;
+    text-align: center;
+}
 
 @media screen and (max-width:800px){
     .textos-hero h1{
