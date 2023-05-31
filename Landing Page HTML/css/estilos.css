@@ -95,13 +95,19 @@ body{
 }
 
 .website img{
-    width: 25%;
+    width: 30%;
 }
 
 .website .contenedor-textos-main{
     width: 40%;
     justify-content: center;
     text-align: center;
+}
+.container_p {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: right;
 }
 
 .parrafo{
