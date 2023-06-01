@@ -180,11 +180,21 @@ body{
     margin-bottom: 10px;
 }
 
+.container_chatbot {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 /* galeria */
 
 .galeria{
     background: #f2f2f2;
 }
+
+
+
 
 .galeria-cont{
     width: 100%;
