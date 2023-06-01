@@ -178,13 +178,15 @@ body{
     font-weight: 300;
     font-size: 25px;
     margin-bottom: 10px;
+   
 }
 
 .container_chatbot {
     display: grid;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 /* galeria */
