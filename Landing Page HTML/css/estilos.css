@@ -313,7 +313,7 @@ input[type="submit"]:hover{
 
     .galeria-cont>img{
         width: 48%;
-    }
+    }   
 
     /* last */
 
@@ -328,6 +328,13 @@ input[type="submit"]:hover{
 
 
 }
+
+    .chat{
+        float: right;
+        margin: left 100px;
+        top: -430px;
+        position: relative;
+    }
 
 @media screen and (max-width:400px){
     .titulo,
